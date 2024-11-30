@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text for better contrast */
+    background-color: #001f3f; /* Dark blue background */
+  }
+  
+  header {
+    background-color: #001f3f; /* Dark blue */
+    color: white;
+    padding: 10px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    background-color: #001f3f; /* Dark blue background for all sections */
+  }
+  
+  footer {
+    background-color: #001f3f; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  

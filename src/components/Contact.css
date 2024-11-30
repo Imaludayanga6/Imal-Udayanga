@@ -1,0 +1,53 @@
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('../assets/images/contact-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00aaff;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.contact .contact-info {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .contact-info p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+/* Social Links Styles */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px; /* Add space between the contact info and social links */
+}
+
+.social-icon {
+  font-size: 2rem; /* Icon size */
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icon:hover {
+  color: #00aaff; /* Light blue on hover */
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}

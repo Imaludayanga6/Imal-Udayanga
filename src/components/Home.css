@@ -1,0 +1,78 @@
+/* General Home Section Styles */
+.home {
+  padding: 60px 20px;
+  background: url('../assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative; /* Needed for positioning of sidebar */
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  gap: 30px; /* Space between text and image */
+}
+
+.text-content {
+  flex: 1; /* Take 50% of the space */
+  max-width: 600px;
+}
+
+.text-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.image-content {
+  flex: 1; /* Take 50% of the space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 500px; /* Increase image size */
+   /* Maintain square dimensions */
+  border-radius: 50%; /* Optional: Make the picture circular */
+  object-fit: cover; /* Ensure the image is well-aligned */
+}
+
+/* Social Sidebar Styles */
+.social-sidebar {
+  position: fixed;
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+  display: flex;
+  flex-direction: column; /* Arrange links vertically */
+  gap: 20px; /* Space between icons */
+  z-index: 1000; /* Ensure the sidebar is above other elements */
+}
+
+.social-icon {
+  font-size: 1.8rem; /* Icon size */
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icon:hover {
+  color: #00aaff; /* Light blue on hover */
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}

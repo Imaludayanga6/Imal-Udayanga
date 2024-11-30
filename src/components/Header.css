@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001f3f; /* Dark blue */
+  color: #ffffff;
+  padding: 20px 40px;
+  border-bottom: 2px solid #00aaff;
+}
+
+.header-logo h1 {
+  font-size: 1.8rem;
+  color: #00aaff; /* Light blue */
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-icon {
+  font-size: 1.8rem; /* Icon size */
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.header-icon:hover {
+  color: #00aaff; /* Light blue on hover */
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}

@@ -1,0 +1,86 @@
+.projects {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #001f3f; /* Dark blue background for consistency */
+    color: #ffffff; /* White text */
+  }
+  
+  .projects h2 {
+    font-size: 3rem; /* Larger heading to match the home page */
+    margin-bottom: 20px;
+    color: #00aaff; /* Light blue for the heading */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds depth to the heading */
+  }
+  
+  .projects a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #00ffcc; /* Teal for links */
+    text-decoration: none;
+    border: 2px solid #00ffcc;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Text shadow for depth */
+  }
+  
+  .projects a:hover {
+    background-color: #00ffcc; /* Teal background on hover */
+    color: #001f3f; /* Dark blue text on hover */
+    transform: scale(1.1); /* Slight scale on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+  }
+  
+  .project {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle highlight for contrast */
+    border: 1px solid #00aaff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 900px; /* Responsive max-width */
+    margin: 0 auto 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Slight shadow for the text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .project:hover {
+    transform: scale(1.02); /* Slight scaling effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  }
+  
+  .project h3 {
+    font-size: 1.8rem;
+    color: #ffcc00; /* Yellow for project titles */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Depth for titles */
+  }
+  
+  .project p {
+    font-size: 1rem;
+    line-height: 1.8; /* Improve readability */
+    color: #ffffff;
+  }
+  
+  .project a {
+    color: #00ffcc; /* Teal for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .project a:hover {
+    color: #ffcc00; /* Yellow on hover */
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Enhanced hover effect */
+  }
+
+  .projects {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('../assets/images/projects-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+  
